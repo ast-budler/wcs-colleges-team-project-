@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function kakaoLogin(){
+            location.href="https://kauth.kakao.com/oauth/authorize\
+		?client_id=19e32d6463b15fa9f4949b1c7ca58bef\
+		&redirect_uri=http://localhost:8090/login\
+		&response_type=code"
+        }
+    </script>
+</head>
+<body>
+    <div onclick="kakaoLogin();"></div>
+
+
+    <a href="https://kauth.kakao.com/oauth/authorize
+		?client_id=19e32d6463b15fa9f4949b1c7ca58bef
+		&redirect_uri=http://localhost:8090/login
+		&response_type=code">
+			<img src="resources/button.png">
+		</a>
+</body>
+</html>
