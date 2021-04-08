@@ -9,10 +9,13 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashMap;
 
+import org.springframework.stereotype.Service;
+
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+@Service
 public class KakaoLoginServiceImpl implements KakaoLoginService{
 	public String getAccessToken (String authorize_code) {
         String access_Token = "";

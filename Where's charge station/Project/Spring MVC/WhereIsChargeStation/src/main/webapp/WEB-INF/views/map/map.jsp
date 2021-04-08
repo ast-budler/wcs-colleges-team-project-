@@ -1,11 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
 <style type="text/css"></style>
-<title>Youre in main page</title>
+<title>Insert title here</title>
 </head>
 <body>
 	<header>
@@ -47,17 +48,12 @@
 			<h1>Section</h1>
 			<article>
 				<div>
-					<h1>ChargeStationInfo</h1>
+					<h1>Article1</h1>
 				</div>
 			</article>
 			<article>
 				<div>
-					<h1>About Us</h1>
-				</div>
-			</article>
-			<article>
-				<div>
-					<h1>Article3</h1>
+					<h1>Article2</h1>
 				</div>
 			</article>
 		</div>

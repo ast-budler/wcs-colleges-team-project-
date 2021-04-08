@@ -23,6 +23,26 @@ public class Rootcontroller {
 	}
 	
 	@RequestMapping("/login")
+	public String login() {
+		return "/account/login";
+	}
+	
+	@RequestMapping("/mypage")
+	public String mypage() {
+		return "/account/mypage";
+	}
+	
+	@RequestMapping("/board")
+	public String board() {
+		return "/board/board";
+	}
+	
+	@RequestMapping("/map")
+	public String map() {
+		return "map/map";
+	}
+	/*
+	@RequestMapping("/login")
 	public String login(@RequestParam("code") String code, HttpSession session) {
 		String accessToken = ks.getAccessToken(code);
 		HashMap<String, Object> userInfo = ks.getUserInfo(accessToken);		
@@ -30,5 +50,5 @@ public class Rootcontroller {
 		session.setAttribute("userId", userInfo.get("email"));
 		session.setAttribute("accessToken", accessToken);
 		return "index";
-	}
+	}*/
 }

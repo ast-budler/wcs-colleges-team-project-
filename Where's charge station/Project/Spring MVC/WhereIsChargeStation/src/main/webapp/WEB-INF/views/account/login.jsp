@@ -1,11 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
 <style type="text/css"></style>
-<title>Youre in main page</title>
+<title>Youre in loginpage</title>
 </head>
 <body>
 	<header>
@@ -45,21 +46,30 @@
 	<section>
 		<div>
 			<h1>Section</h1>
-			<article>
-				<div>
-					<h1>ChargeStationInfo</h1>
-				</div>
-			</article>
-			<article>
-				<div>
-					<h1>About Us</h1>
-				</div>
-			</article>
-			<article>
-				<div>
-					<h1>Article3</h1>
-				</div>
-			</article>
+			<div>
+				<form action="" method="POST" enctype="application/x-www-form-urlencoded">
+					<div>
+						<input type="text">
+					</div>
+					<div>
+						<input type="text">
+					</div>	
+				</form>
+			</div>
+			<div>
+				<ul>
+					<li>
+						<div>
+							<a href="#">회원가입</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a href="#">아이디/비밀번호 찾기</a>
+						</div>
+					</li>
+				</ul>
+			</div>	
 		</div>
 	</section>
 	
